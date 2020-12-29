@@ -1,0 +1,28 @@
+ python -m venv venv
+  cd venv
+  cd Scripts
+  ls
+  source activate
+  pip install django
+  django-admin startproject CursoDjango
+  python manage.py runserver
+
+  wsgi = descobre onde ta as configurações, ve se ta tudo ok
+  url = paginas
+  view = a função que vai processar a response
+  
+  makemigration - cria a migration
+  migrate - aplica no banco
+  python manage.py createsuperuser
+
+  No arquivo admin.py é possível colocar ações das quais a página de Admin pode fazer
+  ex:
+
+  # from django.contrib import admin
+  # from .models import Person
+
+  # admin.site.register(Person)
+
+  html:5 - ja monta a estrutura html
+
+  {% csrf_token %} - segurança para formularios
