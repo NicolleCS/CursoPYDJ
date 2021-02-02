@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b960f09-aa36-4b2f-ae54-8f2f0b0da448" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DjangoYT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/main/templates/main/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/main/templates/main/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/main/templates/main/include/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/main/templates/main/itens.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Inicio/CursoDjango/.idea/CursoDjango.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projeto Heroku/gestaoClientes/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Anotações" beforeDir="false" afterPath="$PROJECT_DIR$/../../Anotações" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/.idea/CursoDjango.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/CursoDjango/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/CursoDjango/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/CursoDjango/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/CursoDjango/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/CursoDjango/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/CursoDjango/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/migrations/0002_person_photo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/clientes/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/estaticos/example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/estaticos/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/media/clients_photos/Imagem1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/meus_templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/meus_templates/person.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/meus_templates/persons_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CursoDjango/meus_templates/pessoa.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1nhPokW7FLfEYbvdmvmVvVqaRQm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b960f09-aa36-4b2f-ae54-8f2f0b0da448" name="Default Changelist" comment="" />
+      <created>1611839526072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611839526072</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1611926156087">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728/1360.0.1280.680@0.0.1360.728" timestamp="1611926156087" />
+  </component>
+</project>

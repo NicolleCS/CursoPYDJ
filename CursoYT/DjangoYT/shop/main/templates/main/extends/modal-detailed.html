@@ -1,0 +1,11 @@
+{% extends 'main/include/modal.html' %}
+
+{% block modal-id %}id="Modal-Detail{{ item.pk }}"{% endblock %}
+
+{% block modal-title %}Detalhes do Produto {{ item.name }}{% endblock %}
+
+{% block modal-content %}{{ item.description }}{% endblock %}
+
+{% block modal-button1-style %}style='display:none'{% endblock %}
+
+{% block modal-button2 %}Voltar{% endblock %}

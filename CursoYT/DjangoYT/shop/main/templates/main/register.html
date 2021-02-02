@@ -1,0 +1,32 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<body class="text-center">
+    <form class="form-signing" method="POST">
+        {% csrf_token %}
+        <img class="mb-4" src="https://www.starlighttv.net/images/login1.png" alt="">
+        <h1 class="h3 mb-3 font-weight-normal">CRIE SUA CONTA</h1>
+        
+        <label for="inputUsername" class="sr-only">USUÁRIO</label>
+        <input type="text" name="inputUsername" id="inputUsername"  class="form-control" placeholder="Insira um nome de usuário">
+        <br>
+
+        <label for="inputUsername" class="sr-only">SENHA</label>
+        <input type="text" name="inputPassword1" id="inputPassword1" class="form-control" placeholder="Insira uma senha">
+        <br>
+
+        <label for="inputUsername" class="sr-only">CONFIRMAR SENHA</label>
+        <input type="text" name="inputPassword2" id="inputPassword2" class="form-control" placeholder="Redigite sua senha">
+        <br>
+
+        <div class="checkbox mb-3">
+            <h6>JÁ TEM CONTA?</h6>
+            <a class="btn btn-sm btn-secondary" href="{% url 'login' %}">Login</a>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">CRIAR UMA CONTA</button>
+    </form>
+</body>
+
+{% endblock %}

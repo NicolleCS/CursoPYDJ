@@ -26,3 +26,16 @@
   html:5 - ja monta a estrutura html
 
   {% csrf_token %} - segurança para formularios
+
+  winpty python manage.py createsuperuser
+
+  https://github.com/Gpzim98/django-heroku
+
+
+  --- CURSO AVANÇADO ---
+
+  url(r'^$') --> sendo o r inicio da url e o ^ fim
+
+  python manage.py makemigrations <app>: Create the migrations (generate the SQL commands).
+
+  python manage.py migrate: Run the migrations (execute the SQL commands).

@@ -1,0 +1,11 @@
+{% extends 'main/include/modal.html' %}
+
+{% block modal-id %}id="Modal-Buy{{ item.pk }}"{% endblock %}
+
+{% block modal-title %}Comprar {{ item.name }}{% endblock %}
+
+{% block modal-content %}Confirmar compra do {{ item.name }} no valor de R${{ item.price }}?{% endblock %}
+
+{% block modal-button1 %}Confirmar{% endblock %}
+
+{% block modal-button2 %}Cancelar{% endblock %}
