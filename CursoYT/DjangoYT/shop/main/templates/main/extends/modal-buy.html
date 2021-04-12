@@ -2,10 +2,25 @@
 
 {% block modal-id %}id="Modal-Buy{{ item.pk }}"{% endblock %}
 
-{% block modal-title %}Comprar {{ item.name }}{% endblock %}
+{% block modal-title %}Deseja comprar esse {{ item.name }}?{% endblock %}
 
-{% block modal-content %}Confirmar compra do {{ item.name }} no valor de R${{ item.price }}?{% endblock %}
+{% block modal-content %}
+    <form method="POST">
+        {% csrf_token %}
+        <h4 class="text-center">
+            {{ item.name }} no valor de R${{ item.price }}
+        </h4>
+        <br>
+        <h6 class="text-center">
+            Ao clicar em "Comprar", você estará confirmando a compra.
+        </h6>
+        <input type="hidden" name="purchased-item" value="{{ item.name }}">
+        
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-secondary">Comprar</button>
+        </div>
+        
+    </form>
+{% endblock %}
 
-{% block modal-button1 %}Confirmar{% endblock %}
-
-{% block modal-button2 %}Cancelar{% endblock %}
+{% block modal-footer-style %}style="display:none"{% endblock %}

@@ -3,7 +3,26 @@
 {% block title %}Login{% endblock %}
 
 {% block content %}
+<body class="text-center">
+    <form class="form-signing" method="POST">
+        {% csrf_token %}
+        <img class="mb-4" src="https://www.starlighttv.net/images/login1.png" alt="">
+        <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+        
+        <label for="inputUsername" class="sr-only">Usuário</label>
+        <input type="text" name="username" id="inputUsername"  class="form-control" placeholder="Insira seu usuário">
+        <br>
 
-  <h1></h1>
+        <label for="inputPassword" class="sr-only">Senha</label>
+        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Insira sua senha">
+        <br>
+
+        <div class="checkbox mb-3">
+            <h6>Não possui uma conta?</h6>
+            <a class="btn btn-sm btn-secondary" href="{% url 'register' %}">Cadastrar</a>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+    </form>
+</body>
 
 {% endblock %}
